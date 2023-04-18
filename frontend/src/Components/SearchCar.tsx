@@ -5,6 +5,7 @@ import AvaliableCarDetail from "./AvaliableCarDetail";
 import { BsArrowRight } from "react-icons/bs";
 import "../style/booking.css";
 
+
 interface City {
   label: string;
   id: number;
@@ -427,10 +428,10 @@ const SearchCar = () => {
             >
               <div className=" w-full">
                 <img
-                  src="../src/assets/BusLogo.jpg"
+                  src="/BusLogo.jpg"
                   width={"100%"}
                   className=" h-64"
-                  alt=""
+                  alt="shout Htae"
                 />
                 <div className=" sm:block md:flex justify-center ">
                   <h1 className=" text-3xl border text-white shadow-lg rounded-md bg-[#393186] sm:w-auto md:w-[50%] px-3 py-2 font-bold text-center mt-4">{ele}</h1>
