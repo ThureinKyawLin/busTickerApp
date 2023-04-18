@@ -8,6 +8,8 @@ const app = express()
 const port = 5000
 app.use(cors())
 
+app.use(express.static('dist'))
+
 app.get('/ticketBooking', (req : Request , res : Response) => {
   // console.log(totalAvaliableCity)
   res.send(totalAvaliableCity)
